@@ -48,7 +48,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Personal Theme
+      value: 'Cloudhealy: Upload'
       keyName: property
     - name: 'og:description'
       value: The preview of the Personal theme
