@@ -21,7 +21,7 @@ params:
     anncmnt_align: center
     anncmnt_has_close: true
   footer:
-    has_social: true
+    has_social: false
     social_links:
     content: >-
       cloudhealy, alpha version <br>
