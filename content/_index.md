@@ -1,7 +1,7 @@
 ---
 title: Home
 sections:
-  - type: form_section
+  - type: ipfs_section
 seo:
   title: 'Cloudhealy: Upload'
   description: Upload your files to IPFS protocol from cloudhealy.
