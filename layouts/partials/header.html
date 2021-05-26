@@ -12,19 +12,15 @@
 			{{ if or .Site.Params.header.has_primary_nav .Site.Params.header.has_secondary_nav }}
 			<div class="navbar__container flex-md-auto">
 				<div class="navbar__scroller">
-					<div class="navbar__inner">
-						<button aria-label="Close" class="btn btn--icon btn--clear navbar__close-btn js-nav-toggle">
 							{{ $include_dict := dict "icon" "close" }}
-							{{ partial "icon.html" $include_dict }}
-							<span class="sr-only">Close</span>
-						</button>
-						
-					</div>
 				</div>
 			</div>
-			<button aria-label="Menu" class="btn btn--icon btn--clear navbar__menu-btn js-nav-toggle ml-auto">
-				<span class="sr-only">Menu</span>
-			</button>
+			<a aria-label="Menu" class="navbar__menu-btn js-nav-toggle ml-auto">
+				{{ if and $.Site.Params.header.has_primary_nav $.Site.Params.header.primary_nav_links }}
+								{{ $include_dict = dict "header_menu" $.Site.Params.header.primary_nav_links "page" $ }}
+								{{ partial "header_menu.html" $include_dict }}
+							{{ end }}
+			</a>
 			{{ end }}
 		</nav>
 	</div>
