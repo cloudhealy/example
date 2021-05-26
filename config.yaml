@@ -22,7 +22,7 @@ params:
         url: /contact
         style: link
     has_secondary_nav: false
-    has_anncmnt: false
+    has_anncmnt: true
   footer:
     logo: images/logo.svg
     logo_alt: Alyvia logo
