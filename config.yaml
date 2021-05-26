@@ -25,6 +25,7 @@ params:
     has_anncmnt: true
     anncmnt_content: |
       CUIDADO
+    anncmnt_align: center
   footer:
     logo: images/logo.svg
     logo_alt: Alyvia logo
