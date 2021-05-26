@@ -42,7 +42,7 @@ sections:
     padding_bottom: medium
 seo:
   title: 'Cloudhealy: Upload'
-  description: The preview of the Personal theme
+  description: Upload your files to IPFS protocol from cloudhealy.
   extra:
     - name: 'og:type'
       value: website
