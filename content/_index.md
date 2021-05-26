@@ -64,7 +64,7 @@ seo:
     - name: 'twitter:description'
       value: Upload your files to IPFS protocol from cloudhealy.
     - name: 'twitter:image'
-      value: images/personal-preview.png
+      value: images/grid.png
       relativeUrl: true
 layout: advanced
 ---
