@@ -51,7 +51,7 @@ seo:
       value: 'Cloudhealy: Upload'
       keyName: property
     - name: 'og:description'
-      value: The preview of the Personal theme
+      value: Upload your files to IPFS protocol from cloudhealy.
       keyName: property
     - name: 'og:image'
       value: images/personal-preview.png
