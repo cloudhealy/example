@@ -62,7 +62,7 @@ seo:
     - name: 'twitter:title'
       value: 'Cloudhealy: Upload'
     - name: 'twitter:description'
-      value: The preview of the Personal theme
+      value: Upload your files to IPFS protocol from cloudhealy.
     - name: 'twitter:image'
       value: images/personal-preview.png
       relativeUrl: true
