@@ -41,7 +41,7 @@ sections:
     padding_top: medium
     padding_bottom: medium
 seo:
-  title: Stackbit Personal Theme
+  title: 'Cloudhealy: Upload'
   description: The preview of the Personal theme
   extra:
     - name: 'og:type'
