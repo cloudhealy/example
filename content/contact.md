@@ -30,7 +30,7 @@ sections:
     form_width: fifty
     form_layout: stacked
     enable_card: true
-    form_id: contact-form
+    form_id: contact
     form_action: /thank-you
     form_fields:
       - input_type: text
