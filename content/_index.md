@@ -54,7 +54,7 @@ seo:
       value: Upload your files to IPFS protocol from cloudhealy.
       keyName: property
     - name: 'og:image'
-      value: images/personal-preview.png
+      value: /_static/app-assets/grid.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
