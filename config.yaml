@@ -23,7 +23,7 @@ params:
   footer:
     has_social: false
     social_links: {}
-    content: 'cloudhealy, alpha version <br> v0.0.1'
+    content: 'cloudhealy, alpha version<br>v0.0.1'
   domain: 'https://example-da691.netlify.app'
   favicon: images/favicon.png
 taxonomies:
