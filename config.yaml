@@ -9,7 +9,7 @@ params:
   header:
     title: Personal Theme
     logo: images/app.webp
-    logo_alt: Alyvia logo
+    logo_alt: Cloudhealy logo
     has_primary_nav: true
     primary_nav_links:
       - label: Ayuda
@@ -25,7 +25,7 @@ params:
     social_links: {}
     content: 'cloudhealy, alpha version<br>v0.0.1'
   domain: 'https://example-da691.netlify.app'
-  favicon: images/favicon.png
+  favicon: images/fav.png
 taxonomies:
   stub: stub
 disableKinds:

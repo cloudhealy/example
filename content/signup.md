@@ -6,7 +6,7 @@ sections:
     subtitle: Por favor responde la siguiente encuesta.
     align: center
     padding_top: medium
-    padding_bottom: medium
+    padding_bottom: none
     background_color: none
   - type: form_section
     form_position: center
@@ -48,7 +48,7 @@ sections:
         default_value: Si prefieres no es necesario responder :)
     submit_label: Envíar
     align_vert: top
-    padding_top: medium
+    padding_top: none
     padding_bottom: medium
     background_color: none
     background_image_repeat: repeat
