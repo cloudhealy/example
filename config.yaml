@@ -17,7 +17,7 @@ params:
         style: link
     has_secondary_nav: false
     has_anncmnt: true
-    anncmnt_content: "CUIDADO cualquier persona que tenga el hash podrá acceder a tu archivo, no lo compartas con nadie \U0001F64F\U0001F3FD\n"
+    anncmnt_content: "RECUERDA, cualquier persona que tenga el hash podrá acceder a tu archivo, no lo compartas con nadie \U0001F64F\U0001F3FD\n"
     anncmnt_align: center
     anncmnt_has_close: true
   footer:

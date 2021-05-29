@@ -3,8 +3,11 @@
  */
 .announcement-bar {
 	background: $color-anncmnt-bg;
-	position: relative;
     color: $color-bold-anncmnt-text;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 1;
 }
 
 .announcement-bar__copy {
