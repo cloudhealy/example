@@ -76,7 +76,9 @@
 			</div>
 			{{ end }}
 			<div class="section__form my-2 cell-12{{ if and (and $is_horiz $has_text) (eq $form_width "fourty") }} cell-md-5{{ end }}{{ if and (and $is_horiz $has_text) (eq $form_width "fifty") }} cell-md-6{{ end }}{{ if and (and $is_horiz $has_text) (eq $form_width "sixty") }} cell-md-7{{ end }}{{ if or (eq $form_pos "top") (eq $form_pos "left") }} order-first{{ end }}">
-				<form name="{{ $section.form_id }}" id="{{ $section.form_id }}"{{ if $section.form_action }} action="{{ $section.form_action }}"{{ end }} method="POST" data-netlify="true" data-netlify-honeypot="{{ $section.form_id }}-bot-field" class="{{ if $form_is_inline }}form-inline{{ end }}{{ if $form_is_card }} card{{ end }}{{ if $form_is_card }} p-4{{ end }}{{ if $form_is_card }} p-sm-5{{ end }}">
+				<script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/done';}"></iframe>
+				<form name="{{ $section.form_id }}" id="{{ $section.form_id }}"{{ if $section.form_action }} action="{{ $section.form_action }}"{{ end }} method="POST" method="POST" target="hidden_iframe" onsubmit="submitted=true;" data-netlify="true" data-netlify-honeypot="{{ $section.form_id }}-bot-field" class="{{ if $form_is_inline }}form-inline{{ end }}{{ if $form_is_card }} card{{ end }}{{ if $form_is_card }} p-4{{ end }}{{ if $form_is_card }} p-sm-5{{ end }}">
 					<div class="sr-only">
 						<label id="{{ $section.form_id }}-honeypot-label" for="{{ $section.form_id }}-honeypot">Don't fill this out if you're human:</label>
 						<input aria-labelledby="{{ $section.form_id }}-honeypot-label" id="{{ $section.form_id }}-honeypot" name="{{ $section.form_id }}-bot-field" />
@@ -93,7 +95,7 @@
 						{{ end }}
 
 						<div class="form-submit{{ if eq $form_is_inline false }} mt-3{{ end }}{{ if eq $form_is_inline true }} mx-auto{{ end }}{{ if eq $form_is_inline true }} mr-xs-0{{ end }}{{ if eq $form_is_inline true }} ml-xs-1{{ end }}">
-							<button type="submit" class="btn btn--primary">{{ $section.submit_label }}</button>
+							<button type="submit" onclick="if(submitted) {disabled=true;}" class="btn btn--primary">{{ $section.submit_label }}</button>
 						</div>
 					</div>
 				</form>
